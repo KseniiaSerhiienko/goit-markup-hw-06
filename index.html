@@ -461,8 +461,9 @@
                   type="text"
                   name="name"
                   id="name"
+                  placeholder=" "
                   />
-                  <span>
+                  <span class="modal-icon-color">
                     <svg class="modal-icon">
                     <use href="./images/sprite.svg#icon-person-black-18dp-1"></use>
                     </svg>
@@ -475,8 +476,9 @@
                   type="tel"
                   name="tel"
                   id="tel"
+                  placeholder=" "
                   />
-                  <span>
+                  <span class="modal-icon-color">
                     <svg class="modal-icon">
                     <use href="./images/sprite.svg#icon-phone-black-18dp-1"></use>
                     </svg>
@@ -489,8 +491,9 @@
                   type="email"
                   name="email"
                   id="email"
+                  placeholder=" "
                   />
-                  <span>
+                  <span class="modal-icon-color">
                     <svg class="modal-icon">
                     <use href="./images/sprite.svg#icon-email-black-18dp-1"></use>
                     </svg>
@@ -499,16 +502,18 @@
 
               <label class="form-label">
                 Комментарий
-                <textarea class="form-input" name="feedback" rows="5" placeholder="Введите текст"></textarea>
+                <textarea class="form-input-text" name="feedback" rows="5" placeholder="Введите текст"></textarea>
               </label>
 
-              
-                
-              <label class="form-label-checkbox" for="agreement"> Соглашаюсь с рассылкой и принимаю Условия договора
-                <input class="checkbox" type="checkbox" name="agreement" value="agreement"/>
+              <label class="form-label-checkbox"> 
+                <input type="checkbox"/>
+                Соглашаюсь с рассылкой и принимаю 
+                <span>
+                  <a class="label-color" href="">Условия договора</a>
+                </span>
               </label>
              
-              <button class="button" type="submit">Отправить</button>
+              <button class="button button-form" type="submit">Отправить</button>
               
            </form>
           </div>
